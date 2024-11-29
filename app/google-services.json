@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "346722874174",
+    "project_id": "entry-scanner-2934c",
+    "storage_bucket": "entry-scanner-2934c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346722874174:android:c8c6cbdb50085e6847326f",
+        "android_client_info": {
+          "package_name": "com.tonygnk.entry_scanner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDknq8vaFJ_SaBO-k3pJaT2EcT3_kMPGpY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

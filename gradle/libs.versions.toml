@@ -1,0 +1,72 @@
+[versions]
+accompanistPermissions = "0.36.0"
+agp = "8.7.2"
+androidxCoreSplashscreen = "1.0.1"
+animation = "1.8.0-alpha05"
+guava = "32.1.3-android"
+kotlin = "2.0.20"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+serialization = "1.7.1"
+lottieCompose = "4.0.0"
+androidxActivity = "1.9.3"
+composeBom = "2024.10.01"
+androidxNavigation = "2.9.0-alpha02"
+uiautomator = "2.3.0"
+benchmarkMacroJunit4 = "1.3.3"
+profileinstaller = "1.4.1"
+googleAndroidLibrariesMapsplatformSecretsGradlePlugin = "2.0.1"
+barcodeScanning = "17.3.0"
+cameraView = "1.4.0"
+dagger = "2.51.1"
+daggerAndroidProcessor = "2.51.1"
+datastorePreferences = "1.1.1"
+firebaseBom = "33.5.1"
+ksp = "2.0.20-1.0.25"
+
+[libraries]
+accompanist-permissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanistPermissions" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "androidxActivity" }
+androidx-animation = { module = "androidx.compose.animation:animation", version.ref = "animation" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+barcode-scanning = { module = "com.google.mlkit:barcode-scanning", version.ref = "barcodeScanning" }
+androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation" }
+androidx-compose-foundation-layout = { group = "androidx.compose.foundation", name = "foundation-layout" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "androidxNavigation" }
+androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "androidxCoreSplashscreen" }
+guava = { module = "com.google.guava:guava", version.ref = "guava" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization" }
+lottie-compose = { module = "com.airbnb.android:lottie-compose", version.ref = "lottieCompose" }
+
+
+androidx-camera-camera2 = { module = "androidx.camera:camera-camera2", version.ref = "cameraView" }
+androidx-camera-lifecycle = { module = "androidx.camera:camera-lifecycle", version.ref = "cameraView" }
+androidx-camera-view = { module = "androidx.camera:camera-view", version.ref = "cameraView" }
+
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-uiautomator = { group = "androidx.test.uiautomator", name = "uiautomator", version.ref = "uiautomator" }
+androidx-benchmark-macro-junit4 = { group = "androidx.benchmark", name = "benchmark-macro-junit4", version.ref = "benchmarkMacroJunit4" }
+androidx-profileinstaller = { module = "androidx.profileinstaller:profileinstaller", version.ref = "profileinstaller" }
+
+
+
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-firestore-ktx = { module = "com.google.firebase:firebase-firestore-ktx" }
+androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastorePreferences" }
+
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+jetbrains-kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+baselineprofile = { id = "androidx.baselineprofile", version.ref = "benchmarkMacroJunit4" }
+android-test = { id = "com.android.test", version.ref = "agp" }
+google-devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+google-android-libraries-mapsplatform-secrets-gradle-plugin = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version.ref = "googleAndroidLibrariesMapsplatformSecretsGradlePlugin" }
