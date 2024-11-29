@@ -14,8 +14,8 @@ import androidx.compose.runtime.DisposableEffect
 import androidx.navigation.compose.rememberNavController
 import com.google.mlkit.vision.barcode.BarcodeScanning
 import com.google.mlkit.vision.common.InputImage
-import com.tonygnk.entry_scanner.navigation.MyNavHost
 import com.tonygnk.entry_scanner.core.designsystem.theme.EntryScannerTheme
+import com.tonygnk.entry_scanner.navigation.MyNavHost
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 

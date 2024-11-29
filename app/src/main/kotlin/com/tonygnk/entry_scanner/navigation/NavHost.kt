@@ -17,15 +17,14 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import androidx.navigation.compose.navigation
 import com.tonygnk.entry_scanner.App
 import com.tonygnk.entry_scanner.core.common.utils.AndroidConnectivityObserver
+import com.tonygnk.entry_scanner.core.designsystem.theme.AppTransition
 import com.tonygnk.entry_scanner.di.viewModelFactory
 import com.tonygnk.entry_scanner.ui.AppViewModel
 import com.tonygnk.entry_scanner.ui.screens.scanScreen.QRCodeScanner
-import com.tonygnk.entry_scanner.ui.screens.tableListScreen.other.NoInternetScreen
-import com.tonygnk.entry_scanner.core.designsystem.theme.AppTransition
 import com.tonygnk.entry_scanner.ui.screens.tableListScreen.TeamListScreen
+import com.tonygnk.entry_scanner.ui.screens.tableListScreen.other.NoInternetScreen
 import com.tonygnk.entry_scanner.utills.LocalAnimatedContentScope
 import com.tonygnk.entry_scanner.utills.LocalSharedTransitionScope
 import kotlinx.serialization.Serializable
